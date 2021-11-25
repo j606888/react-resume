@@ -1,0 +1,18 @@
+h3 {
+  font-weight: 500;
+}
+
+.skill-cols {
+  display: flex;
+  gap: 32px;
+}
+
+.skill {
+  border-top: 1px solid #ccc;
+  flex: 1;
+}
+
+.skill p {
+  margin: 0;
+  line-height: 1.4;
+}

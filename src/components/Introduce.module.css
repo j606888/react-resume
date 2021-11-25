@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+}
+
+.avatar-container {
+  height: 180px;
+  width: 180px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #ddd;
+}
+
+.container ul {
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.avatar {
+  height: 100%;
+  width: auto;
+}
+
+.social-links a {
+  font-size: 26px;
+  margin: 0 8px;
+}
