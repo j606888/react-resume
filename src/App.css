@@ -11,6 +11,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+::selection {
+  color: #fff;
+  background: var(--color-green);
+}
+
 a {
   color: var(--color-green);
   text-decoration: none;
@@ -23,9 +28,18 @@ a:hover {
 .container {
   max-width: 960px;
   margin: 0 auto;
-  padding-top: 64px;
+  padding-top: 48px;
 }
 
 .container > div {
   margin-bottom: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 24px 12px;
+  }
+}
+
+@media screen and (max-width: 480px) {
 }

@@ -15,16 +15,28 @@ const Introduce = () => {
       </ul>
       <p>
         <a href="mailto:j606888@gmail.com">j606888@gmail.com</a> / +886
-        968313044 / Tainan, Taiwan
+        968313044
       </p>
       <div className={styles["social-links"]}>
-        <a href="https://www.linkedin.com/in/%E5%BD%A5%E5%A2%9E-%E6%9D%8E-33b88b176/">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.linkedin.com/in/%E5%BD%A5%E5%A2%9E-%E6%9D%8E-33b88b176/"
+        >
           <i class="fab fa-linkedin-in"> </i>
         </a>
-        <a href="https://www.facebook.com/profile.php?id=100000130585797">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.facebook.com/profile.php?id=100000130585797"
+        >
           <i class="fab fa-facebook"> </i>
         </a>
-        <a href="https://github.com/j606888">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/j606888"
+        >
           <i class="fab fa-github"> </i>
         </a>
       </div>

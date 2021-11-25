@@ -30,3 +30,35 @@
   height: 70%;
   width: auto;
 }
+
+@media screen and (max-width: 768px) {
+  .experience a {
+    display: block;
+  }
+
+  .experience .comma {
+    display: none;
+  }
+
+  .img-container {
+    position: relative;
+    margin: 0 auto;
+    width: 76px;
+    height: 76px;
+    filter: grayscale(0);
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  .experience ul {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .img-container {
+    display: none;
+  }
+}

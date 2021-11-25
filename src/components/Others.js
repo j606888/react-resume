@@ -5,14 +5,22 @@ const Others = () => {
       <ul>
         <li>
           EC2 unlimited mode 的介紹與分析 (
-          <a href="https://docs.google.com/presentation/d/19Ol8AxNOf-uynaeV6clY6A7wP9qmuneZBx0WaC_ingI/edit?usp=sharing">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://docs.google.com/presentation/d/19Ol8AxNOf-uynaeV6clY6A7wP9qmuneZBx0WaC_ingI/edit?usp=sharing"
+          >
             投影片
           </a>
           )
         </li>
         <li>
           南台科大資訊系演講。主題：如何製作 Side Project (
-          <a href="https://docs.google.com/presentation/d/1wZRRI0OD9R_7CyEyYdaC6Rg6vfapaI7kholPHV_NTGQ/edit?usp=sharing">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://docs.google.com/presentation/d/1wZRRI0OD9R_7CyEyYdaC6Rg6vfapaI7kholPHV_NTGQ/edit?usp=sharing"
+          >
             投影片
           </a>
           )

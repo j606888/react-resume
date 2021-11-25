@@ -16,3 +16,13 @@ h3 {
   margin: 0;
   line-height: 1.4;
 }
+
+@media screen and (max-width: 768px) {
+  .skill-cols {
+    display: block;
+  }
+
+  .skill {
+    margin-bottom: 12px;
+  }
+}

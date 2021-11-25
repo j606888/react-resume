@@ -6,9 +6,23 @@ const WorkExperience = () => {
       <h2>工作經歷</h2>
       <div>
         <div className={styles["experience"]}>
+          <div className={styles["img-container"]}>
+            <img
+              src="images/logos/processand.png"
+              alt="processand"
+              className="logo"
+            />
+          </div>
           <h3>
-            <a href="https://www.processand.com/">Processand</a>
-            <span className="comma">,</span> Back-End Developer, 2021/07 ~ 至今
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.processand.com/"
+            >
+              Processand
+            </a>
+            <span className={styles["comma"]}>,</span> Back-End Developer,
+            2021/07 ~ 至今
           </h3>
           <ul>
             <li>將多支 API 改寫，大幅降低 90% 以上的 Response Time</li>
@@ -17,19 +31,21 @@ const WorkExperience = () => {
             <li>負責協調台灣部門與德國主管的溝通與建議</li>
             <li>自學 Python 來協助開發 Flask API Server</li>
           </ul>
-          <div className={styles["img-container"]}>
-            <img
-              src="images/logos/processand.png"
-              alt="processand"
-              className="logo"
-            />
-          </div>
         </div>
         <div className={styles["experience"]}>
+          <div className={styles["img-container"]}>
+            <img src="images/logos/lubn.png" alt="lubn" className="logo" />
+          </div>
           <h3>
-            <a href="https://lubn.com/">Lubn</a>
-            <span className="comma">,</span> Back-End Developer, 2021/05 ~
-            2021/07
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://lubn.com/"
+            >
+              Lubn
+            </a>
+            <span className={styles["comma"]}>,</span> Back-End Developer,
+            2021/05 ~ 2021/07
           </h3>
           <ul>
             <li>
@@ -45,15 +61,25 @@ const WorkExperience = () => {
             </li>
             <li>自學 React 來協助開發 Front-End</li>
           </ul>
-          <div className={styles["img-container"]}>
-            <img src="images/logos/lubn.png" alt="lubn" className="logo" />
-          </div>
         </div>
         <div className={styles["experience"]}>
+          <div className={styles["img-container"]}>
+            <img
+              src="images/logos/kdanmobile.png"
+              alt="kdan"
+              className="logo"
+            />
+          </div>
           <h3>
-            <a href="https://www.kdanmobile.com">Kdan Mobile</a>
-            <span className="comma">,</span> Back-End Developer, 2018/09 ~
-            2021/05
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.kdanmobile.com"
+            >
+              Kdan Mobile
+            </a>
+            <span className={styles["comma"]}>,</span> Back-End Developer,
+            2018/09 ~ 2021/05
           </h3>
           <ul>
             <li>使用 Ruby on Rails 開發公司內部系統</li>
@@ -71,13 +97,6 @@ const WorkExperience = () => {
             <li>導入 BookStack 作為公司內部的共享知識庫</li>
             <li>擔任面試官協助面試新人</li>
           </ul>
-          <div className={styles["img-container"]}>
-            <img
-              src="images/logos/kdanmobile.png"
-              alt="kdan"
-              className="logo"
-            />
-          </div>
         </div>
       </div>
     </div>
